@@ -1,0 +1,15 @@
+{
+  "name": "altcha.org",
+  "version": "1.0.0",
+  "description": "ALTCHA.org website",
+  "private": true,
+  "scripts": {
+    "start": "serve ."
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
